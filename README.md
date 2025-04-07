@@ -1,39 +1,53 @@
-# Browser Inspector
+# Cache Catch - Chrome Extension
 
-**Browser Inspector** is a lightweight and privacy-focused Chrome extension that allows you to instantly view cookies, local storage, and session storage data for any website you're visiting.
+A Chrome extension that allows you to view cookies, local storage, and session storage data for the current website you're visiting.
 
-Whether you're a digital analyst, developer, or just curious about what’s stored in your browser, this tool provides a quick and easy way to inspect web storage data directly from the active tab.
+## Features
 
-## 🔍 Features
+- View all cookies for the current domain
+- Inspect local storage data
+- Check session storage contents
+- Clean, modern interface with tabbed navigation
+- Real-time data updates
 
-- View cookies set by the current website
-- Inspect localStorage and sessionStorage in real time
-- Clean and simple interface
-- No data is collected or transmitted — all processing is done locally
+## Installation
 
-## 🧰 Technologies Used
+1. Clone or download this repository
+2. Open Chrome and navigate to `chrome://extensions/`
+3. Enable "Developer mode" in the top right corner
+4. Click "Load unpacked" and select the directory containing this extension
+5. The Cache Catch icon should now appear in your Chrome toolbar
 
-- HTML / CSS / JavaScript
-- Chrome Extension APIs (`cookies`, `scripting`, `activeTab`, etc.)
+## Usage
 
-## 📦 Installation
+1. Click the Cache Catch icon in your Chrome toolbar while on any website
+2. The popup will show three tabs:
+   - Cookies: Shows all cookies for the current domain
+   - Local Storage: Displays all local storage entries
+   - Session Storage: Shows all session storage data
+3. Click between tabs to view different types of storage data
+4. All data is displayed in a key-value format for easy reading
 
-You can [install it directly from the Chrome Web Store](https://chromewebstore.google.com/detail/plleipkcjhgekajbapdbdcdmafomjmnd?utm_source=item-share-cb) 
-Or, to run it locally:
+## Permissions
 
-1. Clone the repo or download the ZIP
-2. Go to `chrome://extensions`
-3. Enable **Developer Mode**
-4. Click **Load unpacked** and select the extension folder
+This extension requires the following permissions:
+- `activeTab`: To access the current tab's URL
+- `cookies`: To read cookie data
+- `storage`: To access storage APIs
+- `<all_urls>`: To work on any website
 
-## 📄 License
+## Security
 
-This project is licensed under the **MIT License** — you're free to use, modify, and distribute it as you wish. See [`LICENSE`](./LICENSE) for details.
+This extension only reads storage data and does not modify or transmit any information. All data processing happens locally in your browser.
 
-## 🤝 Contributing
+## Development
 
-Contributions are welcome! If you have ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
+To modify or enhance the extension:
+1. Make your changes to the source files
+2. Go to `chrome://extensions/`
+3. Click the refresh icon on the extension card
+4. Your changes will be immediately reflected
 
----
+## License
 
-Made with ☕ and curiosity.
+MIT License - Feel free to use and modify as needed. 
