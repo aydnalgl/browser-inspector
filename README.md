@@ -18,7 +18,7 @@ Whether you're a digital analyst, developer, or just curious about what’s stor
 
 ## 📦 Installation
 
-You can [install it directly from the Chrome Web Store](#) https://chromewebstore.google.com/detail/plleipkcjhgekajbapdbdcdmafomjmnd?utm_source=item-share-cb
+You can [install it directly from the Chrome Web Store](https://chromewebstore.google.com/detail/plleipkcjhgekajbapdbdcdmafomjmnd?utm_source=item-share-cb) 
 Or, to run it locally:
 
 1. Clone the repo or download the ZIP
